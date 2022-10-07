@@ -4,7 +4,7 @@ using namespace std;
 int binarysearch(int arr[], int n, int key){
     int s=0; // start point
     int e=n; // end ponit 
-    while(s>=e){
+    while(s<=e){
         int mid=(s+e)/2;
 
         if(arr[mid]==key){
