@@ -3,7 +3,7 @@ using namespace std;
 
 // making a function to find the key in the array
 int linearsearch(int arr[], int n, int key){
-    for (int i = 0; i < n; i++)
+    for (int i; i < n; i++)
     {
         if(arr[i]==key){
             return i;
